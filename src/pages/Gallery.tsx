@@ -1,54 +1,50 @@
 import React from 'react';
 import { Camera } from 'lucide-react';
 
-import { Camera } from 'lucide-react';
-
 const images = [
-    {
-      src: "/lovable-uploads/d1e6b49f-2415-4613-9ceb-82e04ffae764.png",
-      alt: "Community health consultation and documentation",
-      title: "Community Health Outreach"
-    },
-    {
-      src: "/lovable-uploads/bb13ab70-cfd9-45b5-a3fc-1437030b3537.png",
-      alt: "Healthcare team providing medical services to community members",
-      title: "Medical Support Services"
-    },
-    {
-      src: "/lovable-uploads/cbccdf30-931f-4cb8-ba62-57675b46de3b.png",
-      alt: "Healthcare professional conducting medical examinations",
-      title: "Mobile Medical Clinic"
-    },
-    {
-      src: "/lovable-uploads/21316f9c-3d99-43c4-b8a6-86d736e00b23.png",
-      alt: "Students in classroom receiving education",
-      title: "Educational Programs"
-    },
-    {
-      src: "/lovable-uploads/40efbced-ce42-4f70-9179-8738ad9fab2f.png",
-      alt: "Community education session in progress",
-      title: "Community Education"
-    },
-    {
-      src: "/lovable-uploads/0520d7a7-83d7-4069-a4b4-54ffeab4e691.png",
-      alt: "Youth mentorship and training session",
-      title: "Youth Development"
-    },
-    {
-      src: "/lovable-uploads/9b89c417-375f-43bb-b0d5-7ba5c0a71630.png",
-      alt: "Educational presentation to students",
-      title: "Educational Outreach"
-    },
-    {
-      src: "/lovable-uploads/4133cc2d-0758-4dcd-8145-8ea279fb138e.png",
-      alt: "Students celebrating with certificates",
-      title: "Achievement Recognition"
-    }
-  ];
+  {
+    src: "/lovable-uploads/d1e6b49f-2415-4613-9ceb-82e04ffae764.png",
+    alt: "Community health consultation and documentation",
+    title: "Community Health Outreach"
+  },
+  {
+    src: "/lovable-uploads/bb13ab70-cfd9-45b5-a3fc-1437030b3537.png",
+    alt: "Healthcare team providing medical services to community members",
+    title: "Medical Support Services"
+  },
+  {
+    src: "/lovable-uploads/cbccdf30-931f-4cb8-ba62-57675b46de3b.png",
+    alt: "Healthcare professional conducting medical examinations",
+    title: "Mobile Medical Clinic"
+  },
+  {
+    src: "/lovable-uploads/21316f9c-3d99-43c4-b8a6-86d736e00b23.png",
+    alt: "Students in classroom receiving education",
+    title: "Educational Programs"
+  },
+  {
+    src: "/lovable-uploads/40efbced-ce42-4f70-9179-8738ad9fab2f.png",
+    alt: "Community education session in progress",
+    title: "Community Education"
+  },
+  {
+    src: "/lovable-uploads/0520d7a7-83d7-4069-a4b4-54ffeab4e691.png",
+    alt: "Youth mentorship and training session",
+    title: "Youth Development"
+  },
+  {
+    src: "/lovable-uploads/9b89c417-375f-43bb-b0d5-7ba5c0a71630.png",
+    alt: "Educational presentation to students",
+    title: "Educational Outreach"
+  },
+  {
+    src: "/lovable-uploads/4133cc2d-0758-4dcd-8145-8ea279fb138e.png",
+    alt: "Students celebrating with certificates",
+    title: "Achievement Recognition"
+  }
+];
 
 const Gallery = () => {
-  
-
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}

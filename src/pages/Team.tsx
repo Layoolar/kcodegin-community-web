@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { Users, Award, Heart } from 'lucide-react';
+import { Users, Award, Heart, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Team = () => {
